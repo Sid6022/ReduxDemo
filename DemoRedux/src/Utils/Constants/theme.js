@@ -1,0 +1,95 @@
+import { Platform } from "react-native";
+
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "../Helper/ResponsiveScreen";
+
+const colors = {
+  appBGColor: "#ffffff",
+  whiteColor: "#ffffff",
+  whiteDimColor: "#ffffff80",
+  black: "#000000",
+  textColor: "#323444",
+  textColorWithOpacity: "#32344440",
+  red: "#FF0000",
+  blueColor: "#2e48a5",
+  blueColorLight: "#2e48a540",
+  facebookButtonColor: "#1877F2",
+  googleButtonColor: "#DD4B39",
+  deliverButtonColor: "#373846",
+  darkGreyColor: "#242526",
+  graytext: "#777886",
+  dim1Gray: "#F4F5FA",
+  darkGreyColor2: "#292929",
+  socialSeparatorColor: "#ffffff40",
+  registerNowColor: "#2d48a2",
+  lightGray: "#b3b3b3",
+  darkGray: "#00000099",
+  dimGray: "#ebeaf5",
+  bgColor: "#F7C7C7",
+  greenColor: "green",
+  textInputBoxBackground: "#EFF3FD",
+  loginButtonBGColor: "#F4CB00",
+  darkBlueColor: "#061C4C",
+  darkBlueColorWithOpacity: "#061C4C40",
+  selectedDotColor: "#6074B8",
+  deselectedTabColor: "#A3AED0",
+  deSelectedDotColor: "#B8B8B8",
+  profileTextColorCode: "#0C1C4C",
+  backgroundColor: "#F4F4F4",
+  headerColor: "#122158",
+  darkGrayWithOpacity2: "rgba(255, 255, 255, 0.1)",
+  darkGrayWithOpacity3: "rgba(255, 255, 255, 0.05)",
+  darkGrayWithOpacity: "rgba(255, 255, 255, 0.3)",
+  darkGrayWithOpacity4: "rgba(255, 255, 255, 0.3)",
+  clearColor: "rgba(0, 0, 0, 0.0)",
+  addressBtnTypeBg: "#373846",
+  lightPurple: "#55218B20",
+  purpleColor: "#55218B",
+};
+
+const fontSizes = {
+  Font_hp45: hp(4.5),
+  Font_hp4: hp(4),
+  Font_wp35: hp(3.5),
+  Font_hp32: hp(3.2),
+  Font_hp2: hp(2),
+  Font_hp1: hp(1.35),
+  Font_hp1222: hp(1.2),
+  Font_hp14: hp(1.4),
+  Font_hp166: hp(1.6),
+
+  Font_hp15: hp(1.8),
+  Font_wp65: wp(6.5),
+  Font_wp8: wp(8),
+  Font_wp7: wp(7),
+  Font_wp75: wp(7.5),
+  Font_wp6: wp(6),
+  Font_wp5: wp(5), 
+  Font_wp5_5: wp(5.5),
+  Font_wp45: wp(4.5),
+  Font_wp4: wp(4),
+  Font_wp4_2: wp(4.2),
+
+  Font_wp355: wp(3.5),
+  Font_wp38: wp(3.8),
+  Font_wp32: wp(3.2),
+  Font_wp3: wp(3),
+  Font_wp25: wp(2.5),
+  
+  Font_wp2: wp(2),
+};
+
+const font = {
+  Regular: "HelveticaNeue",
+  Thin: "HelveticaNeue-Thin",
+  Light: "HelveticaNeue-Light",
+  Medium: "HelveticaNeue-Medium",
+  Bold: "HelveticaNeue-Bold",
+  Italic: "Helvetica-Oblique",
+  Ultra_Light: "HelveticaNeue-Ultra-Light",
+  Muller_Bold: "Muller",
+};
+
+export { colors, fontSizes, font };
