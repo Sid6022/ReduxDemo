@@ -6,7 +6,7 @@ import Header from '../Component/Header';
 import { colors } from '../Utils/Constants/theme';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useNavigation,useTheme } from "@react-navigation/native";
-
+import DB from '../Utils/Helper/Database';
 
 const Home = () => {
   const navigation = useNavigation();
@@ -14,7 +14,6 @@ const Home = () => {
   const { colors } = useTheme();
 
   useEffect(() => {
-
     setTimeout(() => {
         navigation.navigate('Profile');
     }, 200);

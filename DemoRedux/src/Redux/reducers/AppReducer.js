@@ -2,7 +2,7 @@ import actionType from '../action/ActionTypes';
 
 
 const INITIAL_STATE = {
-isDarkMode: false,
+    isDarkMode: false,
 }
 
 
